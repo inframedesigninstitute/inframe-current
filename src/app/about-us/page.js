@@ -40,7 +40,7 @@ export default function About() {
                             About Us
                         </h2>
                         <p className="text-gray-700 text-base  sm:text-[19px] leading-relaxed text-justify">
-                            Inframe school of art, design & business is established by the Inframe Educational Society under Rajasthan Societies Act 1958. Inframe school of art, design and business will be one of a kind design institute in Jodhpur which will commence it's curriculum with the aim to expand the design and business field in Jodhpur and it's surrounding regions by being the first design.
+                            Inframes school of art, design & business is established by the Inframe Educational Society under Rajasthan Societies Act 1958. Inframe school of art, design and business will be one of a kind design institute in Jodhpur which will commence it's curriculum with the aim to expand the design and business field in Jodhpur and it's surrounding regions by being the first design.
                         </p>
 
                     </div>
