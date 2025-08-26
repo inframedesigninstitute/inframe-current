@@ -7,22 +7,22 @@ export default function Contact() {
         {
             link: "https://www.youtube.com/channel/UCK_0MkRS4bmfyr3KLxi9-VA",
             name: "Youtube",
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png",
+            src: "/youtube.webp",
         },
         {
             link: "https://www.instagram.com/inframejodhpur/?hl=en",
             name: "Instagram",
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1200px-Instagram_logo_2016.svg.png",
+            src: "/instagram.png",
         },
         {
             link: "https://www.linkedin.com/company/inframe-school-of-art-design-business/?viewAsMember=true",
             name: "LinkedIn",
-            src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/960px-LinkedIn_logo_initials.png",
+            src: "/linkedIn.png",
         },
         {
             link: "https://www.facebook.com/Inframecollege/",
             name: "Facebook",
-            src: "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/2048px-Facebook_f_logo_%282021%29.svg.png",
+            src: "/facebook.png",
         },
     ];
     return (
@@ -46,8 +46,10 @@ export default function Contact() {
                             </p>
                         </div>
                         <Image
-                            className="w-[220px] mt-6 h-[220px] object-contain mx-auto"
-                            src="https://www.inframeschool.com/_next/image?url=%2Fqrcode_164435803_146bf5935e9cfa0ac7b362dd16065180.png&w=256&q=75"
+                        width={220}
+                        height={200}
+                            className="mt-6 h-[220px] object-contain mx-auto"
+                            src="/QrCode.avif"
                             alt="QR Code"
                         />
                     </div>
@@ -106,11 +108,13 @@ export default function Contact() {
                     <ul className="">
                         {socialApps.map((item, index) => {
                             return (
-                                <Link key={index} target="_" href={item.link}><li  className="flex items-center gap-3 text-lg md:text-xl font-medium uppercase my-4 cursor-pointer hover:underline transition duration-200">
+                                <Link key={index} target="_" href={item.link}><li className="flex items-center gap-3 text-lg md:text-xl font-medium uppercase my-4 cursor-pointer hover:underline transition duration-200">
                                     <Image
+                                    width={28}
+                                    height={28}
                                         src={item.src}
                                         alt="YouTube logo"
-                                        className="w-7 h-7 object-contain"
+                                        className="object-contain"
                                     />
                                     {item.name}
                                 </li></Link>
