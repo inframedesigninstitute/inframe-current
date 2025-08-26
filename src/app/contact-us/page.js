@@ -106,7 +106,7 @@ export default function Contact() {
                     <ul className="">
                         {socialApps.map((item, index) => {
                             return (
-                                <Link target="_" href={item.link}><li key={index} className="flex items-center gap-3 text-lg md:text-xl font-medium uppercase my-4 cursor-pointer hover:underline transition duration-200">
+                                <Link key={index} target="_" href={item.link}><li  className="flex items-center gap-3 text-lg md:text-xl font-medium uppercase my-4 cursor-pointer hover:underline transition duration-200">
                                     <Image
                                         src={item.src}
                                         alt="YouTube logo"

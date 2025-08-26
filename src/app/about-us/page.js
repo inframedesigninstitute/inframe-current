@@ -10,27 +10,27 @@ export default function About() {
                 <div className="max-w-[1320] mx-auto lg:px-6 px-3  ">
                     <div className="grid grid-cols-2 gap-12">
                         <div>
-                            <Image className="w-[100%] my-[30px] h-[300px] object-cover rounded-2xl" src="/mockTest.JPG" />
+                            <Image alt='' className="w-[100%] my-[30px] h-[300px] object-cover rounded-2xl" src="/mockTest.JPG" />
                             <div className="grid grid-cols-2 my-[25px] gap-5">
-                                <Image className="object-cover rounded-xl" src="/mockTest.JPG" />
-                                <Image className="object-cover rounded-xl" src="/mockTest.JPG" />
+                                <Image alt='' className="object-cover rounded-xl" src="/mockTest.JPG" />
+                                <Image alt='' className="object-cover rounded-xl" src="/mockTest.JPG" />
                             </div>
                             <div className="grid grid-cols-2 my-[25px] gap-5">
-                                <Image className="object-cover rounded-xl" src="/mockTest.JPG" />
-                                <Image className="object-cover rounded-xl" src="/mockTest.JPG" />
+                                <Image alt='' className="object-cover rounded-xl" src="/mockTest.JPG" />
+                                <Image alt='' className="object-cover rounded-xl" src="/mockTest.JPG" />
                             </div>
                         </div>
                         <div>
 
                             <div className="grid grid-cols-2 my-[25px] gap-5">
-                                <Image className="object-cover rounded-xl" src="/mockTest.JPG" />
-                                <Image className="object-cover rounded-xl" src="/mockTest.JPG" />
+                                <Image alt='' className="object-cover rounded-xl" src="/mockTest.JPG" />
+                                <Image alt='' className="object-cover rounded-xl" src="/mockTest.JPG" />
                             </div>
                             <div className="grid grid-cols-2 my-[25px] gap-5">
-                                <Image className="object-cover rounded-xl" src="/mockTest.JPG" />
-                                <Image className="object-cover rounded-xl" src="/mockTest.JPG" />
+                                <Image alt='' className="object-cover rounded-xl" src="/mockTest.JPG" />
+                                <Image alt='' className="object-cover rounded-xl" src="/mockTest.JPG" />
                             </div>
-                            <Image className="w-[100%] my-[35px] h-[300px] object-cover rounded-2xl" src="/mockTest.JPG" />
+                            <Image alt='' className="w-[100%] my-[35px] h-[300px] object-cover rounded-2xl" src="/mockTest.JPG" />
                         </div>
 
 
