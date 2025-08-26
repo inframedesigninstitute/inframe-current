@@ -44,7 +44,7 @@ function Contact() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "max-w-[1320]  lg:py-[60px] py-[30px] mx-auto lg:px-6 px-3 ",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-[67%_auto] gap-7",
+                    className: "grid lg:grid-cols-[67%_auto] gap-7",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
                             className: "rounded-[20px] border-[4] border-black/20",
@@ -116,7 +116,7 @@ function Contact() {
                 style: {
                     background: "linear-gradient(160deg,rgba(196, 41, 41, 1) 0%, rgba(140, 0, 0, 1) 50%, rgba(230, 39, 39, 1) 100%)"
                 },
-                className: "px-6 lg:text-[50px] text-5xl text-center font-bold uppercase text-white py-7 ",
+                className: "px-6 lg:text-[50px] text-[30px] text-center font-bold uppercase text-white py-7 ",
                 children: "Get in Touch"
             }, void 0, false, {
                 fileName: "[project]/src/app/contact-us/page.js",
@@ -130,7 +130,7 @@ function Contact() {
                         style: {
                             background: "linear-gradient(90deg,rgba(176, 14, 14, 1) 0%, rgba(168, 44, 44, 1) 50%, rgba(79, 0, 0, 1) 100%)"
                         },
-                        className: "w-full rounded-[8] text-white p-7",
+                        className: "w-full rounded-[8] text-white shadow-2xl p-7 mb-[30px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "text-[35px] mb-2  font-semibold",
@@ -240,13 +240,13 @@ function Contact() {
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "w-full rounded-lg text-white p-8",
+                        className: "w-full rounded-lg text-white p-7 mb-[30px] shadow-2xl ",
                         style: {
                             background: "linear-gradient(90deg, rgba(176,14,14,1) 0%, rgba(168,44,44,1) 50%, rgba(79,0,0,1) 100%)"
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-3xl md:text-4xl font-bold mb-4 leading-[45px]",
+                                className: "text-3xl md:text-4xl font-bold leading-[45px] ",
                                 children: "Connect Us on Social Media"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/contact-us/page.js",
@@ -309,7 +309,7 @@ function Contact() {
                         style: {
                             background: "linear-gradient(90deg,rgba(176, 14, 14, 1) 0%, rgba(168, 44, 44, 1) 50%, rgba(79, 0, 0, 1) 100%)"
                         },
-                        className: "w-[100%] bg-white text-white shadow-2xl  p-7 rounded-[10px]",
+                        className: "w-[100%] bg-white text-white shadow-2xl mb-[30px] p-7 rounded-[10px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "text-[35px] mb-2  font-semibold",

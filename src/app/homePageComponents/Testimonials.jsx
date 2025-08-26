@@ -61,15 +61,15 @@ export default function Testimonials() {
     ];
 
     return (
-        <div ref={cardRef} className="w-full bg-gray-200 lg:p-0 p-5">
-            <div className="max-w-[1320px] mx-auto lg:pb-[60px]">
-                <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10">Happy Students Testimonials</h3>
+        <div ref={cardRef} className="w-full lg:bg-gray-50">
+            <h3 style={{ background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)' }} className="px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10">Happy Students Testimonials</h3>
+            <div className="max-w-[1320px] mx-auto lg:pb-[60px] lg:p-0 p-3">
+
 
                 {data.length >= 1 ?
                     <div className="max-w-7xl mx-auto rounded-4xl">
                         <Slider {...settings}>
                             {
-
                                 data.map((item, index) => (
                                     <div
                                         key={index}

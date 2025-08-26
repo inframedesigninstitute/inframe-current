@@ -28,7 +28,7 @@ export default function Contact() {
     return (
         <div className="w-full bg-gray-100 ">
             <div className="max-w-[1320]  lg:py-[60px] py-[30px] mx-auto lg:px-6 px-3 ">
-                <div className="grid grid-cols-[67%_auto] gap-7">
+                <div className="grid lg:grid-cols-[67%_auto] gap-7">
                     <iframe
                         className="rounded-[20px] border-[4] border-black/20"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.737609116669!2d72.98366907635425!3d26.27017807703602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x67b93f41c21a1b33%3A0x75c39459005a6414!2sInframe%20School%20of%20Art%2C%20Design%20%26%20Business!5e0!3m2!1sen!2sin!4v1756102660087!5m2!1sen!2sin"
@@ -46,8 +46,8 @@ export default function Contact() {
                             </p>
                         </div>
                         <Image
-                        width={220}
-                        height={200}
+                            width={220}
+                            height={200}
                             className="mt-6 h-[220px] object-contain mx-auto"
                             src="/QrCode.avif"
                             alt="QR Code"
@@ -60,7 +60,7 @@ export default function Contact() {
                     background:
                         "linear-gradient(160deg,rgba(196, 41, 41, 1) 0%, rgba(140, 0, 0, 1) 50%, rgba(230, 39, 39, 1) 100%)",
                 }}
-                className="px-6 lg:text-[50px] text-5xl text-center font-bold uppercase text-white py-7 "
+                className="px-6 lg:text-[50px] text-[30px] text-center font-bold uppercase text-white py-7 "
             >
                 Get in Touch
             </h3>
@@ -70,7 +70,7 @@ export default function Contact() {
                         background:
                             "linear-gradient(90deg,rgba(176, 14, 14, 1) 0%, rgba(168, 44, 44, 1) 50%, rgba(79, 0, 0, 1) 100%)",
                     }}
-                    className="w-full rounded-[8] text-white p-7"
+                    className="w-full rounded-[8] text-white shadow-2xl p-7 mb-[30px]"
                 >
                     <h3 className="text-[35px] mb-2  font-semibold">Visit Us</h3>
                     <p className="mb-3 text-[25px]">We are located at :</p>
@@ -95,13 +95,13 @@ export default function Contact() {
                 </div>
 
                 <div
-                    className="w-full rounded-lg text-white p-8"
+                    className="w-full rounded-lg text-white p-7 mb-[30px] shadow-2xl "
                     style={{
                         background:
                             "linear-gradient(90deg, rgba(176,14,14,1) 0%, rgba(168,44,44,1) 50%, rgba(79,0,0,1) 100%)",
                     }}
                 >
-                    <h3 className="text-3xl md:text-4xl font-bold mb-4 leading-[45px]">
+                    <h3 className="text-3xl md:text-4xl font-bold leading-[45px] ">
                         Connect Us on Social Media
                     </h3>
                     {/* //Stay updated with the latest news, product updates, and community stories. Follow us across platforms and become part of our growing digital family. We share valuable tips, live sessions, behind-the-scenes, and much more! */}
@@ -110,8 +110,8 @@ export default function Contact() {
                             return (
                                 <Link key={index} target="_" href={item.link}><li className="flex items-center gap-3 text-lg md:text-xl font-medium uppercase my-4 cursor-pointer hover:underline transition duration-200">
                                     <Image
-                                    width={28}
-                                    height={28}
+                                        width={28}
+                                        height={28}
                                         src={item.src}
                                         alt="YouTube logo"
                                         className="object-contain"
@@ -133,7 +133,7 @@ export default function Contact() {
                         background:
                             "linear-gradient(90deg,rgba(176, 14, 14, 1) 0%, rgba(168, 44, 44, 1) 50%, rgba(79, 0, 0, 1) 100%)",
                     }}
-                    className="w-[100%] bg-white text-white shadow-2xl  p-7 rounded-[10px]"
+                    className="w-[100%] bg-white text-white shadow-2xl mb-[30px] p-7 rounded-[10px]"
                 >
                     <h3 className="text-[35px] mb-2  font-semibold">Contact Us</h3>
                     <div className="mb-[10px]">

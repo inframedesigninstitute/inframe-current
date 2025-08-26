@@ -130,8 +130,8 @@ export default function Facility() {
                         ref={(el) => (cardsRef.current[index] = el)}
                         className={`${item.id % 2 != 0 ? 'ml-0' : 'ml-16'} w-[100%] h-[300px] bg-white relative bg-no-repeat  bg-cover bg-center my-[70] backdrop-blur-md bg-opacity-90 rounded-3xl shadow-lg border border-red-100 p-8 text-center transition-all  flex items-center`}
                     >
-                        <div className='absolute w-[100%] h-[100%] z-[-10] top-0 left-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent rounded-3xl' ></div>
-                        <div className='z-40  text-start max-w-xl'>
+                        <div className='absolute w-[100%] h-[100%] z-[-10] top-0 left-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent rounded-3xl' ></div>
+                        <div className='z-40  text-start max-w-lg'>
                             {/* Icon
                             <div className="mb-5">
                                 <div className="inline-flex items-center justify-center w-[70px] h-[70px] rounded-full bg-gradient-to-br from-red-500 to-red-700 text-white text-[28px] shadow-lg border-4 border-white">

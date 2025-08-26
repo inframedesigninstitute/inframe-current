@@ -138,79 +138,81 @@ function StudyMaterials() {
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full lg:p-0 p-3 lg:my-[40px] my-[30px]",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-[1320px] mx-auto lg:py-[60px] py-[30px]",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    style: {
-                        background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)'
-                    },
-                    className: "px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10",
-                    children: "Study Resources"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
-                    lineNumber: 12,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "text-center text-[20px] my-[25px]",
-                    children: "A diverse array of learning materials to enhance your educational journey."
-                }, void 0, false, {
-                    fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
-                    lineNumber: 13,
-                    columnNumber: 17
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid lg:grid-cols-3 lg:h-[400px] h-auto sm:grid-cols-2 grid-cols-1 gap-10 ",
-                    children: data.map((item, index)=>{
-                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-[100%] hover:border-b-10 border-red-600 lg:h-[100%] cursor-pointer group hover:translate-y-[-10px] overflow-hidden transition-all ease-in-out duration-300 rounded-[25px] lg:my-[50px] hover:bg-red-100 bg-gray-200 p-8",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-[25px]",
-                                    children: item.heading
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
-                                    lineNumber: 18,
-                                    columnNumber: 33
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "my-[15px]",
-                                    children: item.description
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
-                                    lineNumber: 19,
-                                    columnNumber: 33
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    className: "[330px] group-hover:scale-[1.1] object-contain duration-300",
-                                    src: item.src,
-                                    alt: ""
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
-                                    lineNumber: 20,
-                                    columnNumber: 33
-                                }, this)
-                            ]
-                        }, index, true, {
-                            fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
-                            lineNumber: 17,
-                            columnNumber: 29
-                        }, this);
-                    })
-                }, void 0, false, {
-                    fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
-                    lineNumber: 14,
-                    columnNumber: 17
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
-            lineNumber: 11,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
+        className: "w-full  lg:my-[60px] my-[30px]",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                style: {
+                    background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)'
+                },
+                className: "px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10",
+                children: "Study Resources"
+            }, void 0, false, {
+                fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
+                lineNumber: 11,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-[1320px] lg:p-0 p-3  mx-auto ",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-center text-[20px] my-[25px]",
+                        children: "A diverse array of learning materials to enhance your educational journey."
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
+                        lineNumber: 14,
+                        columnNumber: 17
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "grid lg:grid-cols-3 lg:h-[400px] h-auto sm:grid-cols-2 grid-cols-1 gap-10 ",
+                        children: data.map((item, index)=>{
+                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "w-[100%] hover:border-b-10 border-red-600 lg:h-[100%] cursor-pointer group hover:translate-y-[-10px] overflow-hidden transition-all ease-in-out duration-300 rounded-[25px] lg:my-[50px] hover:bg-red-100 bg-gray-200 p-8",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                        className: "text-[25px]",
+                                        children: item.heading
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
+                                        lineNumber: 19,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "my-[15px]",
+                                        children: item.description
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
+                                        lineNumber: 20,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                        className: "[330px] group-hover:scale-[1.1] object-contain duration-300",
+                                        src: item.src,
+                                        alt: ""
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
+                                        lineNumber: 21,
+                                        columnNumber: 33
+                                    }, this)
+                                ]
+                            }, index, true, {
+                                fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
+                                lineNumber: 18,
+                                columnNumber: 29
+                            }, this);
+                        })
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
+                        lineNumber: 15,
+                        columnNumber: 17
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
+                lineNumber: 12,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/app/homePageComponents/StudyMaterials.jsx",
         lineNumber: 10,
         columnNumber: 9

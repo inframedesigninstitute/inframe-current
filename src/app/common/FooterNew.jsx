@@ -1,5 +1,5 @@
 'use client'
-import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaYoutube } from "react-icons/fa";
+import { FaFacebookSquare, FaGraduationCap, FaLinkedin, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { megaMenuData } from "../ApiData/categoryApi";
 import Link from "next/link";
@@ -27,12 +27,22 @@ export default function FooterNew() {
 
             <div className="w-full lg:py-[30px] py-[20px] bg-black lg:px-6 px-3 " >
                 <div className="max-w-[1320] mx-auto">
-                    <div className="grid md:grid-cols-3 justify-center items-center gap-5">
-                        <div className="text-white md:border-r-[1] pr-10 border-white">
+                    <div className="grid md:grid-cols-4 justify-center items-center gap-10">
+                        <div className="text-white md:border-r-[1] pr-5 h-[100%] border-white">
+                            <h2 className="text-[24px] mb-4 font-semibold uppercase ">Student Zone</h2>
+                            <ul>
+                                <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Jodhpur</li>
+                                <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Udaipur</li>
+                                <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Jaipur</li>
+                                <li className="mb-[20px] hover:text-gray-300 duration-100 text-[17px] cursor-pointer flex items-center gap-2"><FaGraduationCap className="text-[25px]" /> Top Colleges In Rajasthan</li>
+                            </ul>
+                        </div>
+                        <div className="text-white md:border-r-[1] pr-5 border-white">
                             <h2 className="text-[24px] mb-2 font-semibold uppercase">About Us</h2>
-                            <p className="text-[18px] text-justify tracking-tight" >InFrame Design Institute (IDI), established in 2013, is a premier
+                            <p className="text-[18px] text-justify" >InFrame Design Institute (IDI), established in 2013, is a premier
                                 design education center located in Jodhpur, Rajasthan. Founded by a
-                                group of artists, IDI offers comprehensive coaching for various
+                                group of artists,
+                                IDI offers comprehensive coaching for various
                                 design entrance examinations, including NIFT, NID, and UCEED.
                             </p>
 

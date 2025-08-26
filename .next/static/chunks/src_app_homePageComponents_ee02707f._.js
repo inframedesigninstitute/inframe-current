@@ -453,14 +453,14 @@ function Facility() {
                         className: "".concat(item.id % 2 != 0 ? 'ml-0' : 'ml-16', " w-[100%] h-[300px] bg-white relative bg-no-repeat  bg-cover bg-center my-[70] backdrop-blur-md bg-opacity-90 rounded-3xl shadow-lg border border-red-100 p-8 text-center transition-all  flex items-center"),
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute w-[100%] h-[100%] z-[-10] top-0 left-0 bg-gradient-to-r from-black/90 via-black/70 to-transparent rounded-3xl"
+                                className: "absolute w-[100%] h-[100%] z-[-10] top-0 left-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent rounded-3xl"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/homePageComponents/Facility.jsx",
                                 lineNumber: 133,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "z-40  text-start max-w-xl",
+                                className: "z-40  text-start max-w-lg",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-[40px] font-bold text-white uppercase tracking-wide mb-3",
@@ -579,24 +579,24 @@ function BookaSession() {
                 style: {
                     background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)'
                 },
-                className: "px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5 mb-10",
+                className: "px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5 mb-0",
                 children: "Book A Free Session"
             }, void 0, false, {
                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                lineNumber: 55,
+                lineNumber: 54,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 style: {
                     backgroundImage: 'url("/bookSession.jpg")'
                 },
-                className: "w-full  bg-cover bg-center relative ",
+                className: "w-full bg-fixed  bg-cover bg-center relative ",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute w-[100%] h-[100%] bg-gradient-to-r from-black/95 via-black/40 to-black/100"
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                        lineNumber: 58,
+                        lineNumber: 57,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -613,7 +613,7 @@ function BookaSession() {
                                                 className: "text-[40px] "
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 63,
+                                                lineNumber: 62,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -621,13 +621,13 @@ function BookaSession() {
                                                 children: "Book Your Free Counseling Session"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 64,
+                                                lineNumber: 63,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 62,
+                                        lineNumber: 61,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -635,7 +635,7 @@ function BookaSession() {
                                         children: "Not sure which creative career to pursue? Let's talk it out. Our expert mentors will help you understand the best path forward based on your passion and goals."
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 69,
+                                        lineNumber: 68,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -648,14 +648,14 @@ function BookaSession() {
                                                         className: "text-white mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                        lineNumber: 77,
+                                                        lineNumber: 76,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Fill out a short form with your details."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 76,
+                                                lineNumber: 75,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -665,14 +665,14 @@ function BookaSession() {
                                                         className: "text-white mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                        lineNumber: 81,
+                                                        lineNumber: 80,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Get a call from our academic counselor within 24 hours."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 80,
+                                                lineNumber: 79,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -682,20 +682,20 @@ function BookaSession() {
                                                         className: "text-white mt-1"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                        lineNumber: 85,
+                                                        lineNumber: 84,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Receive personalized guidance on exams, programs, and colleges."
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 84,
+                                                lineNumber: 83,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 75,
+                                        lineNumber: 74,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -703,13 +703,13 @@ function BookaSession() {
                                         children: "“I was confused between NID and UCEED — this call helped me decide clearly.” — Rhea, Design Aspirant"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 98,
+                                        lineNumber: 97,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                lineNumber: 61,
+                                lineNumber: 60,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -721,7 +721,7 @@ function BookaSession() {
                                         children: "Fill in Your Details"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 105,
+                                        lineNumber: 104,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -732,7 +732,7 @@ function BookaSession() {
                                                 children: "Full Name*"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 110,
+                                                lineNumber: 109,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -743,13 +743,13 @@ function BookaSession() {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 113,
+                                                lineNumber: 112,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 109,
+                                        lineNumber: 108,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -760,7 +760,7 @@ function BookaSession() {
                                                 children: "Email Address*"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 123,
+                                                lineNumber: 122,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -771,13 +771,13 @@ function BookaSession() {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 126,
+                                                lineNumber: 125,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 122,
+                                        lineNumber: 121,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -788,7 +788,7 @@ function BookaSession() {
                                                 children: "Phone Number*"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 136,
+                                                lineNumber: 135,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -799,13 +799,13 @@ function BookaSession() {
                                                 required: true
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 139,
+                                                lineNumber: 138,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 135,
+                                        lineNumber: 134,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -816,7 +816,7 @@ function BookaSession() {
                                                 children: "Exam Type*"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 149,
+                                                lineNumber: 148,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -830,7 +830,7 @@ function BookaSession() {
                                                         children: "-- Select Exam Type --"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 156,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -839,7 +839,7 @@ function BookaSession() {
                                                         children: "NIFT"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 157,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -848,7 +848,7 @@ function BookaSession() {
                                                         children: "NID"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 158,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -857,7 +857,7 @@ function BookaSession() {
                                                         children: "UCEED"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                        lineNumber: 160,
+                                                        lineNumber: 159,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -866,19 +866,19 @@ function BookaSession() {
                                                         children: "NATA"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                        lineNumber: 161,
+                                                        lineNumber: 160,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                                lineNumber: 152,
+                                                lineNumber: 151,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 148,
+                                        lineNumber: 147,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -887,31 +887,31 @@ function BookaSession() {
                                         children: "Book My Session"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                        lineNumber: 165,
+                                        lineNumber: 164,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                                lineNumber: 104,
+                                lineNumber: 103,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                        lineNumber: 59,
+                        lineNumber: 58,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-                lineNumber: 56,
+                lineNumber: 55,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/homePageComponents/BookaSession.jsx",
-        lineNumber: 54,
+        lineNumber: 53,
         columnNumber: 5
     }, this);
 }
@@ -2114,22 +2114,22 @@ function Testimonials() {
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         ref: cardRef,
-        className: "w-full bg-gray-200 lg:p-0 p-5",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-[1320px] mx-auto lg:pb-[60px]",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                    style: {
-                        background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)'
-                    },
-                    className: "px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10",
-                    children: "Happy Students Testimonials"
-                }, void 0, false, {
-                    fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                    lineNumber: 66,
-                    columnNumber: 17
-                }, this),
-                data.length >= 1 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "w-full lg:bg-gray-50",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                style: {
+                    background: 'linear-gradient(135deg, rgba(230, 39, 39, 1) 0%, rgba(140, 0, 0, 0.95) 45%, rgba(90, 0, 0, 1) 100%)'
+                },
+                className: "px-6 lg:text-[35px] text-[25px] text-center font-bold uppercase text-white py-5  mb-10",
+                children: "Happy Students Testimonials"
+            }, void 0, false, {
+                fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                lineNumber: 65,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-[1320px] mx-auto lg:pb-[60px] lg:p-0 p-3",
+                children: data.length >= 1 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "max-w-7xl mx-auto rounded-4xl",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         ...settings,
@@ -2153,12 +2153,12 @@ function Testimonials() {
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                        lineNumber: 70,
+                        lineNumber: 71,
                         columnNumber: 25
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-                    lineNumber: 69,
+                    lineNumber: 70,
                     columnNumber: 21
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex justify-center items-center h-auto ",
@@ -2174,13 +2174,13 @@ function Testimonials() {
                     lineNumber: 88,
                     columnNumber: 21
                 }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
-            lineNumber: 65,
-            columnNumber: 13
-        }, this)
-    }, void 0, false, {
+            }, void 0, false, {
+                fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
+                lineNumber: 66,
+                columnNumber: 13
+            }, this)
+        ]
+    }, void 0, true, {
         fileName: "[project]/src/app/homePageComponents/Testimonials.jsx",
         lineNumber: 64,
         columnNumber: 9
