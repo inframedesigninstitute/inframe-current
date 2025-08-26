@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-import { megaMenuData } from "../categoryData/categoryApi";
+import { megaMenuData } from "../ApiData/categoryApi";
 import MegaMenuContent from "./MegaMenuContent";
 
 export default function MegaMenu({ MegaMenuOpen, setMegaMenuOpen }) {

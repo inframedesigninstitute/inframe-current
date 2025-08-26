@@ -1,7 +1,7 @@
 'use client'
 import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaYoutube } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-import { megaMenuData } from "../categoryData/categoryApi";
+import { megaMenuData } from "../ApiData/categoryApi";
 import Link from "next/link";
 
 export default function FooterNew() {

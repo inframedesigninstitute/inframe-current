@@ -13,7 +13,7 @@ import { HiOutlineBars3CenterLeft } from "react-icons/hi2";
 import { MdClose } from "react-icons/md";
 import UserControl from "./UserControl";
 import MegaMenu from "../homePageComponents/MegaMenu";
-import { megaMenuData } from "../categoryData/categoryApi";
+import { megaMenuData } from "../ApiData/categoryApi";
 import Link from "next/link";
 
 export default function Header() {

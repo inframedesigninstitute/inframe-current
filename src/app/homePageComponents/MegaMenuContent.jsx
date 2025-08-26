@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { megaMenuData } from "../categoryData/categoryApi";
+import { megaMenuData } from "../ApiData/categoryApi";
 
 export default function MegaMenuContent({ category, setMegaMenuOpen }) {
     const categoryData = megaMenuData.find(
