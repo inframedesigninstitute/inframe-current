@@ -1,5 +1,7 @@
 'use client'
-import Image from 'next/image'
+
+import Image from "next/image";
+
 export default function About() {
     const galleryImages = [
         { src: "gallery1.JPG", alt: "Image 1", colSpan: 2, rowSpan: 2 },
@@ -34,8 +36,8 @@ export default function About() {
             </section>
             <section className='bg-white w-full'>
                 <div className='max-w-[1320] grid grid-cols-[40%_auto] gap-10 mx-auto lg:py-[60px] py-[30px] lg:px-6 px-3'>
-                    <img className='hover:scale-[1.01] duration-100 w-[100%] rounded-[35px]' src='/aboutUsPic.JPG' />
-                    <div className="bg-white border-b-4 border-r-4 shadow-sm shadow-red-200 border-red-600 rounded-3xl p-10  hover:shadow-lg transition-shadow duration-100">
+                    <Image width={800} height={800} className='hover:scale-[1.05] duration-300 w-[100%] rounded-[35px]' src='/aboutUsPic.JPG' />
+                    <div className="bg-white border-b-4 border-r-4 shadow-sm shadow-red-200 border-red-600 rounded-3xl p-10  hover:shadow-lg transition-shadow duration-100 ">
                         <h2 className="uppercase font-bold text-red-700 text-2xl sm:text-3xl mb-4 tracking-wide">
                             About Us
                         </h2>
@@ -54,23 +56,23 @@ export default function About() {
                 </h3>
                 <div className='grid grid-cols-[60%_auto] lg:px-6 px-3 gap-[35px] lg:my-[40px] my-[30px]'>
                     <div>
-                        <div className='grid grid-cols-2 gap-[35px]'>
-                            <img className='hover:scale-[1.01] duration-100 mb-[35px] rounded-[5px]' src='/gallery1.jpg' />
-                            <img className='hover:scale-[1.01] duration-100 mb-[35px] rounded-[5px]' src='/gallery2.jpg' />
+                        <div className='grid grid-cols-2 mb-[35px] gap-[35px]'>
+                            <Image width={800} height={800} className='hover:scale-[1.05] duration-300 w-[100%] h-[100%] mb-[35px] rounded-[5px]' src='/gallery1.jpg' />
+                            <Image width={800} height={800} className='hover:scale-[1.05] duration-300 mb-[35px] rounded-[5px] w-[100%] h-[100%]' src='/gallery2.jpg' />
                         </div>
                         <div className='grid grid-cols-2 gap-[35px]'>
-                            <img className='hover:scale-[1.01] duration-100 rounded-[5px]' src='/gallery3.jpg' />
-                            <img className='hover:scale-[1.01] duration-100 rounded-[5px]' src='/gallery4.jpg' />
+                            <Image width={800} height={800} className='hover:scale-[1.05] duration-300 rounded-[5px]' src='/gallery3.jpg' />
+                            <Image width={800} height={800} className='hover:scale-[1.05] duration-300 rounded-[5px] w-[100%] h-[100%]' src='/gallery4.jpg' />
                         </div>
                     </div>
                     <div>
-                        <img className='hover:scale-[1.01] duration-100 w-[100%] h-[100%] object-cover rounded-[5px]' src='/gallery8.jpg' />
+                        <Image width={800} height={800} className='hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]' src='/gallery8.jpg' />
                     </div>
                 </div>
                 <div className='grid grid-cols-[40%_35%_auto] mb-[100px] h-[300px] lg:px-6 px-3 gap-[35px]'>
-                    <img className='hover:scale-[1.01] duration-100 w-[100%] h-[100%] object-cover rounded-[5px]' src='/gallery6.jpg' />
-                    <img className='hover:scale-[1.01] duration-100 w-[100%] h-[100%] object-cover rounded-[5px]' src='/gallery7.jpg' />
-                    <img className='hover:scale-[1.01] duration-100 w-[100%] h-[100%] object-cover rounded-[5px]' src='/gallery5.jpg' />
+                    <Image width={800} height={800} className='hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px] ' src='/gallery6.jpg' />
+                    <Image width={800} height={800} className='hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]' src='/gallery7.jpg' />
+                    <Image width={800} height={800} className='hover:scale-[1.05] duration-300 w-[100%] h-[100%] object-cover rounded-[5px]' src='/gallery5.jpg' />
                 </div>
             </section>
         </div>
